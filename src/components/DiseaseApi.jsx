@@ -74,7 +74,7 @@ const DiseaseApi = () => {
       type="text"
       value={query}
       onChange={(e) => setQuery(e.target.value)}
-      placeholder="Search for disease (e.g., cancer)"
+      placeholder="Search for disease (e.g., Diabetes, Cancer, Fever, Flu..)"
       className="border-2 border-gray-800 p-3 pl-12 rounded-full w-full text-black placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 transition transform hover:translate-y-[-4px] hover:shadow-lg ease-in-out"
     />
   </form>
